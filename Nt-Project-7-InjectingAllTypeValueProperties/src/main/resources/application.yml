@@ -1,0 +1,28 @@
+emp:
+  info:
+    id: 1234
+    idDetails:
+      aadhar: 1234321245
+      pain: Q2343PR
+      voter: 1234321245
+    name: kamal Kant Prakash
+    nickName:
+    - kamal
+    - kant
+    - prakash
+    phoneNumber:
+    - 9998887777
+    - 9998887799
+    - 9998887788
+    - 9998887766
+    teamMember:
+    - ravi
+    - savi
+    - kavi
+    - javi
+imp:
+  info:
+    comdtl:
+      location: Hyderabad
+      size: 200
+      title: TCS
