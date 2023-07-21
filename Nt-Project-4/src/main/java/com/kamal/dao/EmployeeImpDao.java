@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 
 import com.kamal.bo.EmployeeBO;
 
-@Repository
+@Repository("empDAO")
 public class EmployeeImpDao implements IEmployeeDAO {
 
 	private static final String GET_EMP_BY_DEGS = "SELECT EMPNO,ENAME,JOB,SAL,DEPTNO,MGR FROM EMP WHERE JOB IN";

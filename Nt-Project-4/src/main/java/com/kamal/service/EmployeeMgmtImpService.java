@@ -5,11 +5,13 @@ import java.util.List;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.kamal.bo.EmployeeBO;
 import com.kamal.dao.IEmployeeDAO;
 import com.kamal.dto.EmployeeDTO;
 
+@Service("empService")
 public class EmployeeMgmtImpService implements IEmployeeMgmtService {
 	@Autowired
 	private IEmployeeDAO dao;

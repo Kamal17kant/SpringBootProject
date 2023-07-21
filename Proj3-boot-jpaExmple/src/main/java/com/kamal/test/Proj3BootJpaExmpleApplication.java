@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.kamal.dao.UserRepository;
-import com.kamal.entity.User;
+import com.kamal.test.dao.UserRepository;
+import com.kamal.test.entity.User;
 
 @SpringBootApplication
 public class Proj3BootJpaExmpleApplication {
